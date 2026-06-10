@@ -52,7 +52,7 @@ export default function Assistant() {
         setCurrentRoute("📚 Library MCP");
 
         const res = await axios.get(
-          "http://127.0.0.1:8000/library"
+          "https://campus-intelligence-backend.onrender.com/library"
         );
 
         const book = res.data.find((b: any) =>
@@ -79,7 +79,7 @@ export default function Assistant() {
         setCurrentRoute("📚 Library MCP");
 
         const res = await axios.get(
-          "http://127.0.0.1:8000/library"
+          "https://campus-intelligence-backend.onrender.com/library"
         );
 
         response =
@@ -103,7 +103,7 @@ export default function Assistant() {
         setCurrentRoute("📚 Library MCP");
 
         const res = await axios.get(
-          "http://127.0.0.1:8000/library"
+          "https://campus-intelligence-backend.onrender.com/library"
         );
 
         response = `📚 Total Books Available: ${res.data.length}`;
@@ -123,7 +123,7 @@ export default function Assistant() {
         setCurrentRoute("📅 Events MCP");
 
         const res = await axios.get(
-          "http://127.0.0.1:8000/events"
+          "https://campus-intelligence-backend.onrender.com/events"
         );
 
         response =
@@ -147,7 +147,7 @@ export default function Assistant() {
         setCurrentRoute("📅 Events MCP");
 
         const res = await axios.get(
-          "http://127.0.0.1:8000/events"
+          "https://campus-intelligence-backend.onrender.com/events"
         );
 
         response = `📅 Total Events Scheduled: ${res.data.length}`;
@@ -166,7 +166,7 @@ export default function Assistant() {
         setCurrentRoute("🎓 Academics MCP");
 
         const res = await axios.get(
-          "http://127.0.0.1:8000/academics"
+          "https://campus-intelligence-backend.onrender.com/academics"
         );
 
         response =
@@ -190,7 +190,7 @@ export default function Assistant() {
         setCurrentRoute("👤 Student MCP");
 
         const res = await axios.get(
-          "http://127.0.0.1:8000/profile"
+          "https://campus-intelligence-backend.onrender.com/profile"
         );
 
         const profile = res.data;

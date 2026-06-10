@@ -10,7 +10,7 @@ export default function Profile() {
 
   const loadProfile = async () => {
     const res = await axios.get(
-      "http://127.0.0.1:8000/profile"
+      "https://campus-intelligence-backend.onrender.com/profile"
     );
 
     setProfile(res.data);

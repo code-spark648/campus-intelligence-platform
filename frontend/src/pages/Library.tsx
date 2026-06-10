@@ -7,7 +7,7 @@ export default function Library() {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:8000/library")
+      .get("https://campus-intelligence-backend.onrender.com/library")
       .then((res) => {
         setBooks(res.data);
       })

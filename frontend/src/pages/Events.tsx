@@ -7,7 +7,7 @@ export default function Events() {
 
   useEffect(() => {
     axios
-      .get("http://127.0.0.1:8000/events")
+      .get("https://campus-intelligence-backend.onrender.com/events")
       .then((res) => {
         setEvents(res.data);
       })

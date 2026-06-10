@@ -11,7 +11,7 @@ export default function Academics() {
 
   const loadCourses = async () => {
     const res = await axios.get(
-      "http://127.0.0.1:8000/academics"
+      "https://campus-intelligence-backend.onrender.com/academics"
     );
 
     setCourses(res.data);

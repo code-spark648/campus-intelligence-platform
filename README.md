@@ -163,7 +163,7 @@ uvicorn main:app --reload
 Backend runs at:
 
 ```text
-http://127.0.0.1:8000
+https://campus-intelligence-backend.onrender.com
 ```
 
 ## Frontend Setup

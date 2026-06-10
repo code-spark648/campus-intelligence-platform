@@ -14,15 +14,15 @@ export default function LiveStats() {
   const loadData = async () => {
     try {
       const booksRes = await axios.get(
-        "http://127.0.0.1:8000/library"
+        "https://campus-intelligence-backend.onrender.com/library"
       );
 
       const eventsRes = await axios.get(
-        "http://127.0.0.1:8000/events"
+        "https://campus-intelligence-backend.onrender.com/events"
       );
 
       const academicsRes = await axios.get(
-        "http://127.0.0.1:8000/academics"
+        "https://campus-intelligence-backend.onrender.com/academics"
       );
 
       setBooks(booksRes.data.length);
