@@ -1,0 +1,22 @@
+[
+  {
+    "course": "Data Structures",
+    "faculty": "Dr. Sharma"
+  },
+  {
+    "course": "Operating Systems",
+    "faculty": "Dr. Gupta"
+  },
+  {
+    "course": "Database Management Systems",
+    "faculty": "Dr. Rao"
+  },
+  {
+    "course": "Machine Learning",
+    "faculty": "Dr. Verma"
+  },
+  {
+    "course": "Computer Networks",
+    "faculty": "Dr. Singh"
+  }
+]

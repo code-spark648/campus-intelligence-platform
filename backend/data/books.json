@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Machine Learning",
+    "copies": 12
+  },
+  {
+    "title": "Data Structures & Algorithms",
+    "copies": 8
+  },
+  {
+    "title": "Computer Networks",
+    "copies": 6
+  },
+  {
+    "title": "Operating Systems",
+    "copies": 10
+  }
+]
